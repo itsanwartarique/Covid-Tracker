@@ -1,0 +1,25 @@
+body{
+    background-size: 100%;
+    background-color: #63003b;
+background-image: url("https://expleogroup.com/wp-content/uploads/2020/07/news-covid-tracker-02-feature.jpg");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.image{
+    width: 370px;
+    margin-top: 50px;
+}
+@media(max-width: 770px){
+    .container{
+        margin: 0 10%;
+    }
+    .image {
+        width:  100%;
+    }
+}
